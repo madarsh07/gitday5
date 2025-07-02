@@ -11,7 +11,7 @@ def greet_user():
     else:
         greeting = "Good evening"
 
-    print(f"{greeting}! The yesterday date and time is {now.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"{greeting}! The main date and time is {now.strftime('%Y-%m-%d %H:%M:%S')}")
 
 greet_user()
 
