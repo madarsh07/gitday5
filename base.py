@@ -1,7 +1,7 @@
 from datetime import datetime
 
 def greet_user():
-    now = datetime.now()
+    now = alfatest.now()
     current_hour = now.hour
 
     if current_hour < 12:
